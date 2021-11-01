@@ -1,7 +1,8 @@
 # COMP3120_Data_Store
 This repository contains NSW Property Sales bulk data(https://valuation.property.nsw.gov.au/embed/propertySalesInformation) and converted JSON data.  
 Raw Bulk data can be found in `raw_data`  
-Converted Json data can be found in `json_data`
+Converted Json data can be found in `json_data`  
+Code used to convert the Raw Bulk Data into Json data can be found in `rawRead.java` (requires dependencies: gson & json-Simple)
 
 The raw .dat files were converted from the file format found in: `Current_Propert_Sales_data_File_Format_2001_to_Current.pdf`  
 All converted JSON files follow the structure below:
