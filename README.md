@@ -1,9 +1,9 @@
 # COMP3120_Data_Store
-This repository contains NSW Property Sales bulk data(https://valuation.property.nsw.gov.au/embed/propertySalesInformation) and converted JSON data.
-Raw Bulk data can be found in `raw_data`
+This repository contains NSW Property Sales bulk data(https://valuation.property.nsw.gov.au/embed/propertySalesInformation) and converted JSON data.  
+Raw Bulk data can be found in `raw_data`  
 Converted Json data can be found in `json_data`
 
-The raw .dat files were converted from the file format found in: `Current_Propert_Sales_data_File_Format_2001_to_Current.pdf`
+The raw .dat files were converted from the file format found in: `Current_Propert_Sales_data_File_Format_2001_to_Current.pdf`  
 All converted JSON files follow the structure below:
 #### JSON Data Structure example:
 
@@ -26,7 +26,7 @@ All converted JSON files follow the structure below:
 ]}
 ```
 ## json_data info
-Json data from the raw_data was separated into 2 datasets: **Annual** and **Suburb**
-Annual data is separated via year sold.
+Json data from the raw_data was separated into 2 datasets: **Annual** and **Suburb**  
+Annual data is separated via year sold.  
 Suburb data is separated via their suburbs regardless of sale date.
 
